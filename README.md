@@ -1,6 +1,7 @@
 # RecipeNLG
 
 
+
 # RecipeNLG — Vegetarian vs Non‑Vegetarian Classification (NLP)
 
 Учебный ноутбук по курсу **«Обработка текстов»**: классификация рецептов на **вегетарианские (1)** и **невегетарианские (0)** по тексту ингредиентов.
@@ -14,11 +15,12 @@
 
 ---
 
+
 ## Файлы
 
 - `nlp_recipe_classification1.ipynb` — основной ноутбук
-- `data/full_dataset.csv` — датасет (локально, **не коммитить** в репозиторий)
-- `checkpoints_bert/` — чекпоинты модели (локально, **не коммитить**)
+- `data/full_dataset.csv` — датасет 
+- `checkpoints_bert/` — чекпоинты модели 
 
 ---
 
@@ -34,7 +36,9 @@
 
 В корне проекта:
 
+
 ```bash
+
 python -m venv venv
 # Windows:
 venv\Scripts\activate
@@ -45,6 +49,7 @@ pip install -U pip
 pip install pandas numpy matplotlib scikit-learn datasets transformers torch
 ```
 ## Данные
+
 Ожидается файл:
 
 ```bash
@@ -54,11 +59,13 @@ data/full_dataset.csv
 
 - ingredients
 - или любая колонка, в названии которой есть ingredient
+
 Опционально используется колонка названия рецепта:
 
 - title / name / recipe_name
 
 ## Запуск
+
 ```bash
 jupyter lab
 # или
