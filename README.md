@@ -1,7 +1,5 @@
 # RecipeNLG
 
-
-
 # RecipeNLG — Vegetarian vs Non‑Vegetarian Classification (NLP)
 
 Учебный ноутбук по курсу **«Обработка текстов»**: классификация рецептов на **вегетарианские (1)** и **невегетарианские (0)** по тексту ингредиентов.
@@ -55,6 +53,7 @@ pip install pandas numpy matplotlib scikit-learn datasets transformers torch
 ```bash
 data/full_dataset.csv
 ```
+
 В CSV должна быть колонка с ингредиентами. По умолчанию ищется:
 
 - ingredients
